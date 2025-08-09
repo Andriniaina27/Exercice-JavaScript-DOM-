@@ -12,7 +12,7 @@ table.createCaption().textContent = "Titre";
 var thead = table.createTHead();
 var tr = document.createElement('tr');
 thead.appendChild(tr);
-var titre = ["Nom", "Prenom", "Age", "Sexe", "Action"]
+var titre = ["Nom", "Adresse email", "Age", "Sexe", "Action"]
 for (let i = 0; i< titre.length; i++) {
     var th = document.createElement('th');
     tr.appendChild(th);
