@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="public/css/style.css">
+    <link rel="stylesheet" href="public/css/FontAwesome/css/all.css">
+    <title>Document</title>
+</head>
+
+<body>
+    <div class="wrapper gap">
+        <div class="content-form">
+            <div class="div-header">
+                <h3 style="color: white;">Ajouter des informations</h3>
+                <div class="heading"></div>
+            </div>
+                <form action="" id="form" method="post">
+                    <input type="text" id="nom" placeholder="Nom"><br>
+                    <input type="email" id="prenom" placeholder="Adresse email"><br>
+                    <input type="number" id="age" placeholder="Age"><br>
+                    <select name="sexe" id="sexe">
+                        <option value=""></option>
+                        <option value="Masculin">Masculin</option>
+                        <option value="Feminin">Feminin</option>
+                    </select>
+                    <p id="error"></p>
+                </form>
+        </div>
+        <div class="content-table" id="content">   
+        </div>
+    </div>
+</body>
+<script src="public/js/script.js"></script>
+</html>
